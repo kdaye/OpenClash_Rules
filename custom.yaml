@@ -1,0 +1,11 @@
+payload:
+# NAME: custom
+## linkedIn
+  - '+.bizographics.com'
+  - '+.licdn.com'
+  - '+.linkedin.at'
+  - '+.linkedin.com'
+## T-mobile US
+  - '+.t-mobile.com'
+  - '+.tmomail.net'
+  - '+.tmobile-digital.com'
