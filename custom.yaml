@@ -10,4 +10,4 @@ payload:
   - '+.tmomail.net'
   - '+.tmobile-digital.com'
 ## telegram
-  - IP-CIDR,5.28.192.0/18,no-resolve
+  - ’5.28.192.0/18‘
