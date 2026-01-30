@@ -12,3 +12,11 @@ payload:
 
   ## Telegram (必须指定 IP-CIDR 类型)
   - IP-CIDR,5.28.192.0/18,no-resolve
+
+  # Anthropic / Claude 核心域名
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN,claude.com
+  # 静态资源与 API
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,statsig.com
