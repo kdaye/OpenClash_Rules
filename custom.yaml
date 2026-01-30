@@ -17,6 +17,8 @@ payload:
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN,claude.com
-  # 静态资源与 API
-  - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,statsig.com
+  - DOMAIN,api.anthropic.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,segment.com
