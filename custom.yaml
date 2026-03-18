@@ -15,10 +15,12 @@ payload:
 
   # Anthropic / Claude 核心域名
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,api.anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN,claude.com
   - DOMAIN-SUFFIX,statsig.com
-  - DOMAIN,api.anthropic.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,segment.io
   - DOMAIN-SUFFIX,segment.com
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,intellimize.co
