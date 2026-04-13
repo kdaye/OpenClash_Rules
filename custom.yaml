@@ -24,3 +24,14 @@ payload:
   - DOMAIN-SUFFIX,segment.com
   - DOMAIN-SUFFIX,claude.com
   - DOMAIN-SUFFIX,intellimize.co
+  
+  - DOMAIN-SUFFIX,claude.sh
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+  - DOMAIN,platform.claude.com
+  - DOMAIN,cdn.usefathom.com
+  # Datadog - 用于 App 性能监控和日志上报（如果被拦截，App 有时会报错）
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  # Sift Science - 关键的风控/反欺诈系统（Claude 用它来检测设备环境，必须走代理）
+  - DOMAIN,api3.siftscience.com
