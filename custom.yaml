@@ -16,10 +16,25 @@ payload:
   - IP-CIDR,5.28.192.0/18,no-resolve
 
   # Anthropic / Claude 核心域名
+  # 应用下载与自动更新（Claude Desktop App）
+  - DOMAIN,downloads.claude.ai
+  
+  # Claude in Chrome 扩展的 WebSocket 桥接
+  - DOMAIN,bridge.claudeusercontent.com
+  
+  # Changelog 和插件市场信息
+  - DOMAIN,raw.githubusercontent.com
+  
+  # 旧版本（2.1.115 及以前）的安装/自动更新
+  - DOMAIN,storage.googleapis.com
+  
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN,api.anthropic.com
+  - DOMAIN,a-api.anthropic.com
+  - DOMAIN,a-cdn.anthropic.com
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN,claude.com
+  - DOMAIN,a.claude.ai
   - DOMAIN-SUFFIX,statsig.com
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,segment.io
@@ -37,3 +52,6 @@ payload:
   - DOMAIN,browser-intake-us5-datadoghq.com
   # Sift Science - 关键的风控/反欺诈系统（Claude 用它来检测设备环境，必须走代理）
   - DOMAIN,api3.siftscience.com
+  # LaunchDarkly - 功能开关服务（A/B 测试、功能灰度发布）
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,launchdarklysoftware.com
